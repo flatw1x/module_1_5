@@ -1,5 +1,5 @@
 immutable_var = 1, 'string', 1.5, [1, 2], True
-print(immutable_var)# котреж нелзя изменить
+print(immutable_var)# кортеж нелзя изменить
 immutable_var[3][0]=2
 print(immutable_var)
 mutable_list = [1, 'string', 1.5, [1,2], True]
